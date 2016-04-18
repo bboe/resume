@@ -1,8 +1,8 @@
 # Resume
 
-## OS X Instructions
+## OS X Installation Instructions
 
-* Install BasicTeX: https://www.tug.org/mactex/morepackages.html
-* Install rubber: `brew install rubber`
+    brew install Caskroom/cask/mactex
+    brew install homebrew/tex/rubber
 
 Run `make` to generate `resume.pdf`.
