@@ -1,5 +1,5 @@
 all:
-	rubber -d resume.tex
+	pdflatex resume.tex
 
 clean:
-	rubber -d --clean resume.tex
+	rm resume.aux resume.log resume.pdf
